@@ -1,0 +1,25 @@
+body{
+  background-color: #90ee90 ;
+}
+table,th,td{
+   padding: 10px;
+   margin: 100px 0px 0px 100px;
+}
+#option{
+  border-radius: 3px;
+  border: 1px solid blue;
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px 0px 10px;
+  background-color: #000000;
+}
+.borderforbody{
+    background-color: #ffa502;
+}
+#button{
+  border-radius: 25px;
+  border: 2px ridge #06FDF8;
+  padding: 10px 25px;
+  background-color: yellow;
+}

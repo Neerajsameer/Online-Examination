@@ -1,0 +1,42 @@
+<html>
+ <head><title>Online Examination System</title>
+  <link rel="stylesheet" href="backgroundforAdmin.css"></head>
+ <body>
+     <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6L0Q962o_1WpGU53dODufFIZEQUwov6o",
+    authDomain: "examination-system-9df9c.firebaseapp.com",
+    databaseURL: "https://examination-system-9df9c.firebaseio.com",
+    projectId: "examination-system-9df9c",
+    storageBucket: "examination-system-9df9c.appspot.com",
+    messagingSenderId: "835946419567",
+    appId: "1:835946419567:web:6e400acd0591d42353049a",
+    measurementId: "G-ES6EX7DTVX"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src = "Admin.js"></script>
+<button type = "button" onclick ="logout()" id="logout" style="position: absolute; right:10px">Log Out</button></br>
+<div class="main" >
+<table border="0" align="center" >
+  <font color="white">
+  <tr><td><b>Question-</b></font></td><td> <input type = "text" id = "q" ></body></td></tr>
+   <tr><td><b>Option A-</b></font></td><td> <input type = "text" id = "a" ></body></td></tr>
+  <tr><td><b> Option B-</b></font></td><td><input type = "text" id = "b" ></body></td></tr>
+  <tr><td><b>Option C-</b></font></td><td><input type = "text" id = "c" ></body></td></tr>
+  <tr><td><b> Option D-</b></font></td><td> <input type = "text" id = "d" ></body></td></tr>
+  <tr><td><b>Answer-</b></font></td><td>  <input type = "text" id = "ans" ></body></td></tr>
+ <tr><td></td>
+</table>
+<button  type = "button"  onclick = upload() id="update">Upload</button>
+</div>
+<center><button type = "button" onclick = showscores() id="score">Show Scores</button></center>
+
+
+</body>
+</html>

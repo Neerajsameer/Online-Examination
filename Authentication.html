@@ -1,0 +1,36 @@
+<html>
+ <head><title>Online Examination System</title>
+   <link rel="stylesheet" href="backgroundforAuthentication.css">
+ </head>
+ <body>
+  <center> <h1 >ANDHRA UNIVERSITY <br> EXAMINATION PORTAL</h1></center>
+    <div class="main" >
+       <form  align="center">
+         <img src="au_logo.png" width="200px" height="200px" align:"center"></img>
+
+         <table align="center" >
+         <tr>
+          <td> 
+           <input type = "text" placeholder="Enter your email" id = "useremail" >
+          </td>
+         </tr>
+        <tr>
+          <td> 
+            <input type = "password" placeholder="Enter password" id = "password">
+          </td>
+        </tr> 
+      </table>
+    </br>
+    </form>
+    <center><button type = "button" id = "login" onclick = "login()">Login</button></center>
+
+</div>
+  
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+<script src = "Authentication.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+.main{
+  margin: auto 400px ;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  background-color: #4882a3;
+  padding: 50px 10px;
+}
+
+#tcell{
+  border: 1px solid #e2e7ff;
+  text-align: left;
+  padding: 12px;
+  background-color: lightcyan;
+  border-radius: 20px;
+}
+#tscell{
+  border: 1px solid #e2e7ff;
+  text-align: center;
+  padding: 12px;
+  background-color: lightcyan;
+  border-radius: 50px;
+}
+#sTable {
+  margin: 0px auto;
+  margin-top: 10px;
+}
+
+#q,#a,#b,#c,#d,#ans{
+    border-radius: 25px;
+    border: 2px solid rgb(66, 65, 65);
+    color: black;
+    padding: 10px;
+    width: 200px;
+    height: 30px;
+}
+td{
+  color: black;
+}
+th{
+  color: #ffffff;
+}
+table{
+  align-items: center;
+}
+#update{
+  margin: 20px 0px 0px 200px ;
+  border-radius: 25px;
+  padding: 10px 25px;
+  border: 2px solid #ffffff;
+  background-color: #4882a3;
+}
+#score{
+  border-radius: 25px;
+  padding: 10px 25px;
+  border: 2px solid #ffffff;
+  background-color: #4882a3;
+  margin-top: 20px;
+}
+#logout{
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: black;
+  border: 1.5px solid #ffffff;
+  margin: 0px 0px 0px 300px ;
+  background-color: #4882a3;
+  color: white;
+}
+body{
+  background-image: url("pic_2.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

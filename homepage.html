@@ -1,0 +1,39 @@
+<html>
+ <head><title>Online Examination System</title>
+   <link rel="stylesheet" href="backgroundforhomepage.css">
+ </head>
+ <body>
+ 	 <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6L0Q962o_1WpGU53dODufFIZEQUwov6o",
+    authDomain: "examination-system-9df9c.firebaseapp.com",
+    databaseURL: "https://examination-system-9df9c.firebaseio.com",
+    projectId: "examination-system-9df9c",
+    storageBucket: "examination-system-9df9c.appspot.com",
+    messagingSenderId: "835946419567",
+    appId: "1:835946419567:web:6e400acd0591d42353049a",
+    measurementId: "G-ES6EX7DTVX"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<div calss="main">
+<script src = "homepage.js"></script>
+<button type = "button" onclick = "submit()" id="button">Submit</button>
+<button type = "button"  onclick = "logout()" id="button" style="float: right;">Log Out</button>
+</div>
+<h3 id = "scorecard"></h3>
+<script src = "style.css"></script>
+</body>
+</html>
